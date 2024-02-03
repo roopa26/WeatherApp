@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.inpt{
+  background-color: white;
+  color: black;
+  width:300px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.btn{
+  background-color: green;
+  border-radius: 4px;
+  color: white;
+  height: 40px;
+  width: 80px;
+  margin: 10px;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cardWrapper{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap:10px;
+}
+
+.weather-card{
+  width: 150px;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
