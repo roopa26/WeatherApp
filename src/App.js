@@ -11,9 +11,9 @@ function App() {
     const fetchData = async () =>{
       try{
         const res = await fetch(`https://api.weatherapi.com/v1/current.json?key=f6ef39f9a1d94b98943165233232709&q=${searchCity}`)
-        if (!res.ok) {
-          throw new Error('Failed to fetch weather data');
-        }
+        // if (!res.ok) {
+        //   throw new Error('Failed to fetch weather data');
+        // }
         const data = await res.json();
         setCityData(data);
         setIsLoading(false);
