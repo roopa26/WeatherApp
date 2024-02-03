@@ -37,8 +37,10 @@
   }
 }
 
-.search-container {
+.search-bar {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 input[type="text"] {
