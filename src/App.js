@@ -30,7 +30,7 @@ function App() {
   return (
     <div>
       <div className='wrapper'>
-      <input className='inpt' placeholder='Enter city name' value={searchCity} onChange={(e)=>{setSearchCity(e.target.value)}}/>
+      <input type='text' className='inpt' placeholder='Enter city name' value={searchCity} onChange={(e)=>{setSearchCity(e.target.value)}}/>
       <button className='btn' onClick={handleSearch}>Search</button>
       </div>
       {isLoading?(<p className='cardWrapper'>Loading Data...</p>):cityData && ( <div className='cardWrapper'>
