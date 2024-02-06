@@ -10,11 +10,11 @@
 }
 
 
-.search-bar {
-  margin: 20px;
+.search-container {
+  margin: 20px auto;
 }
 
-.search-bar input {
+.search-container input {
   padding: 10px;
   font-size: 16px;
   border: none;
@@ -22,7 +22,7 @@
   margin-right: 10px;
 }
 
-.search-bar button {
+.search-container button {
   padding: 10px 20px;
   font-size: 16px;
   background-color: #4caf50;
