@@ -24,6 +24,7 @@ function App() {
         setCityData(data);
       } else {
         alert('Failed to fetch weather data');
+        setCityData([])
       }
     } catch (err) {
       alert('Failed to fetch weather data');
